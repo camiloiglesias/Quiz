@@ -1,3 +1,36 @@
+ /* 
+ body {
+    margin: 0;
+}
+*/
+
+/*
+* {
+    border: 1px solid red;
+} 
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+*, :root {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+main {      
+    padding: 20px;  
+    border: 1px solid green;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+
+/* declaração */
 #acertos {
     text-align: center;
     background-color: #A3E635;
@@ -8,3 +41,4 @@
     width: 100%;
     padding: 12px;
 }
+
